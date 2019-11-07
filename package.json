@@ -19,13 +19,13 @@
   },
   "dependencies": {
     "adapt-authoring-auth": "taylortom/adapt-authoring-auth",
-    "adapt-authoring-config": "adapt-security/adapt-authoring-config",
-    "adapt-authoring-core": "adapt-security/adapt-authoring-core",
-    "adapt-authoring-jsonschema": "adapt-security/adapt-authoring-jsonschema",
-    "adapt-authoring-lang": "adapt-security/adapt-authoring-lang",
-    "adapt-authoring-logger": "adapt-security/adapt-authoring-logger",
+    "adapt-authoring-config": "git+ssh://github.com/adapt-security/adapt-authoring-config.git",
+    "adapt-authoring-core": "git+ssh://github.com/adapt-security/adapt-authoring-core.git",
+    "adapt-authoring-jsonschema": "git+ssh://github.com/adapt-security/adapt-authoring-jsonschema.git",
+    "adapt-authoring-lang": "git+ssh://github.com/adapt-security/adapt-authoring-lang.git",
+    "adapt-authoring-logger": "git+ssh://github.com/adapt-security/adapt-authoring-logger.git",
     "adapt-authoring-middleware": "taylortom/adapt-authoring-middleware",
-    "adapt-authoring-server": "adapt-security/adapt-authoring-server"
+    "adapt-authoring-server": "git+ssh://github.com/adapt-security/adapt-authoring-server.git"
   },
   "engines": {
     "node": "12.x"
